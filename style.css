@@ -1,0 +1,127 @@
+* {
+  background-color: rgb(255, 194, 115);
+}
+
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#div1 {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 16rem;
+  height: 29rem;
+  margin-top: 10px;
+}
+
+#header {
+  text-align: center;
+  margin-top: 5%;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.5);
+}
+
+#header2 {
+  text-align: center;
+  margin-top: 8%;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  background: none;
+  text-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.5);
+}
+
+#form {
+  text-align: left;
+  background: none;
+  margin-left: 70px;
+}
+
+#student {
+  text-align: left;
+  margin-top: 5%;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.5);
+  background: none;
+  margin-left: 5px;
+}
+
+#checkbox {
+  accent-color: rgb(164, 133, 93);
+}
+
+#countdown {
+  text-align: center;
+  margin-top: 5%;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.5);
+}
+
+#countnumber {
+  text-align: center;
+  margin-top: 5%;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-size: 100px;
+  color: white;
+  text-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.5);
+}
+
+.button {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 200px;
+  height: 60px;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  color: white;
+  font-size: 15px;
+  text-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.5);
+}
+
+#randomstudentis {
+  text-align: center;
+  margin-top: 5%;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.5);
+}
+
+#studentname {
+  text-align: center;
+  margin-top: 5%;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-size: 100px;
+  color: white;
+  text-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.5);
+}
+
+#button2 {
+  margin: 0 auto;
+}
+
+#button3 {
+  margin: 0 auto;
+  margin-top: 10px;
+}

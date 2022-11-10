@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="countdown"></h1>
+    <h1 id="countnumber"></h1>
+    <div id="studentreveal">
+      <h1 id="randomstudentis" style="display: none"></h1>
+      <h1 id="studentname" style="display: none"></h1>
+      <button
+        class="button"
+        id="button3"
+        onclick="home()"
+        style="display: none"
+      >
+        Home
+      </button>
+    </div>
+
+    <div id="body">
+      <h1 id="header">Random Student Generator</h1>
+      <div id="wrapper">
+        <div id="div1">
+          <h1 id="header2">Anyone missing?</h1>
+          <form id="form"></form>
+        </div>
+        <button class="button" id="button" onclick="myFunction()">
+          Generate
+        </button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
